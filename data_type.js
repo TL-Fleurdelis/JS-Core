@@ -9,14 +9,6 @@ let isEmployee = true; // or false
 let emptyValue = null;
 // Undefined: Dùng để biểu thị một biến đã được khai báo nhưng chưa được gán giá trị.
 let uninitializedVariable; // giá trị mặc định là undefined
-// Object: Dùng để lưu trữ các giá trị phức tạp hơn, bao gồm các thuộc tính và phương thức.
-let person = {
-    nameEmployee: nameEmployee,
-    age: age,
-    isEmployee: isEmployee
-};
-// Array: Dùng để lưu trữ một tập hợp các giá trị, có thể là các kiểu dữ liệu khác nhau.
-let listMyInfo = [nameEmployee, age, isEmployee, person];
 
 // Symbol: Dùng để tạo ra các giá trị duy nhất, thường được sử dụng làm khóa cho các thuộc tính của đối tượng 
 // Không hay sử dụng trong các bài tập cơ bản, nhưng rất hữu ích trong các ứng dụng phức tạp để tránh xung đột tên.
@@ -50,3 +42,7 @@ console.log(typeof test); // Output ra là gì ????
 /*
 Đây là một comment nhiều dòng
 */
+
+
+// Câu hỏi: array, object có được tính là data type không ? array và object khác nhau như nào 
+// Phân biệt Primitive và Reference data type 
