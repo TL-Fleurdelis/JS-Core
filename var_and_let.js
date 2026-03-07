@@ -14,8 +14,17 @@
 function test() {
     if (true) {
         var x = 1;
+        // var x = 2;
+        // x = 2; 
+        // Nhìn 2 đoạn command trên xem đoạn nào đúng, đoạn nào sai ?
         let y = 2;
+        // let y = 3
+        // y = 3;
+        // Nhìn 2 đoạn command trên xem đoạn nào đúng, đoạn nào sai ?
+
     }
     console.log(x); // Được (var có function scope)
     console.log(y); // Lỗi (let có block scope)
 }
+// Kết luận: Nên sử dụng let thay vì var để tránh các vấn đề liên quan đến phạm vi và hoisting, giúp mã dễ đọc và bảo trì hơn.
+
